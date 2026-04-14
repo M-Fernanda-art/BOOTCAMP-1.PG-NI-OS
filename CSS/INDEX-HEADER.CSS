@@ -56,4 +56,18 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 390px) { 
+    .pop {
+    background-size: 800px 700px;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 700px;
+    }
+
+
+
+
+
+}
 

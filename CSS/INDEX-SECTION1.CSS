@@ -19,3 +19,23 @@ h2 {
     margin: 20px 120px 60px 120px;
     text-align: center;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 390px) {
+    .sec1 {
+        max-width: 390px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+    h2 {
+        font-size: 16px;
+        color: black;
+        margin-top: 20px;
+}
+    .secp1 {
+        font-size: 14px;
+        margin: 0;
+} 
+}

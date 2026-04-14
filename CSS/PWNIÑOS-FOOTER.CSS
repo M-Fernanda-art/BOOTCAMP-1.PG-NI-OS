@@ -1,0 +1,18 @@
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #333333;
+    height: 50px;
+}
+.nav2 a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+#sus {
+    font-weight: bold;
+    gap: 70px;
+}

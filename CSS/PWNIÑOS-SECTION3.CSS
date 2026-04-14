@@ -1,0 +1,34 @@
+.sec3 {
+    display: flex;
+    background-image: url(../IMAGENES/bg-grid.png);
+    background-size: calc(1200px);
+    background-position-y: -370px;
+    background-position-x: 130px;
+    height: 450px;
+}
+.secinterior {
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0;
+}
+.p2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+.img2 {
+    height: 300px;
+    width: 320px;
+    margin: 80px 60px 40px 80px;
+}

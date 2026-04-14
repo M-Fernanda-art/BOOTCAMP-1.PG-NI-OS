@@ -1,0 +1,21 @@
+.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: white;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: black;
+    margin-top: 60px;
+}
+.secp1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    margin: 20px 120px 60px 120px;
+    text-align: center;
+}

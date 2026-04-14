@@ -1,6 +1,5 @@
 .sec2 {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     gap: 5px;
@@ -10,7 +9,6 @@
 .secimg {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 150px;
     align-items: center;
     height: 100px;
@@ -26,12 +24,10 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .img1 {
     height: 120px;
     width: 120px;
-
 }
 .p1 {
     font-family: 'Times New Roman', Times, serif;
@@ -50,4 +46,50 @@ h3 {
     color: black;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 390px) {
+    .sec2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%; 
+        height: auto; 
+}
+    .secimg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 100%; 
+        height: auto;
+        margin: 10px 0 20px 0;
+}
+    h3 {
+        font-size: 16px;
+        margin: 20px;
+}
+    .pop2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+}
+    .img1 {
+        height: 120px;
+        width: 120px;
+}
+    .p1 {
+        font-size: 14px;
+        margin: 10px;
+}
+    .b1 {
+        width: 80px;
+        height: 30px;
+}
+    .b1 a {
+        color: black;
+        font-size: 14px;
+}
 }

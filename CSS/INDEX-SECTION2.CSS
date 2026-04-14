@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 5px;
+    gap: 50px;
     background-color: aquamarine;
     height: 450px;
 }
@@ -24,6 +24,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .img1 {
     height: 120px;

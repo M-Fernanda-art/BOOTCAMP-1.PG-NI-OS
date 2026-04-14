@@ -18,3 +18,18 @@
 }
 
 /* MEDIA QUERIES */
+
+@media (max-width: 390px) {
+    .nav2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+}
+    .nav2 a {
+        font-size: 14px;
+}
+    #sus {
+        gap: 10px;
+}
+}
